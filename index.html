@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
 
     <title>Will Murphy Week 1</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -43,23 +42,24 @@
         </nav>
 
       </div>
-    </div>
+    </div><!-- ***END NAVBAR -->
     <!-- Carousel -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Circle Indicators -->
+      <!-- Slideshow Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
+      </ol><!-- ***END Slideshow Indicators -->
+      <!-- Inner Carousel -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
           <img class="first-slide" src="img/universe.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Example headline.</h1>
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              <h1>Travel to outerspace</h1>
+              <p>Have you ever wanted to visit another galaxy? We can take you there. Buy a ticket on our spaceship today. Only $2,000,000</p>
+              <p><a class="btn btn-lg btn-success" href="#" role="button">Buy now</a></p>
             </div>
           </div>
         </div>
@@ -92,36 +92,31 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-    </div><!-- /.carousel -->
+    </div><!-- ***END Inner Carousel -->
 
-
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
+    <!--Body Below Carousel-->
     <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
+      <!-- Three Columns with Circle Images -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
+          <img class="img-circle" src="img/sun.jpg" alt="Image of the sun" width="140px" height="140px">
+          <h2>Visit the Sun</h2>
+          <p>Buy a one way ticket to the sun! Hug your loved ones goodbye and strap into our space rocket other people just like you. It's completely safe until you get close to the sun. Only <strong>$3,000,000</strong></p>
+          <p><a class="btn btn-danger" href="#" role="button">Buy Now &raquo;</a></p>
+        </div>
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
+          <img class="img-circle" src="img/earth.jpg" alt="Image of the earth" width="140" height="140">
+          <h2>Just here on Earth</h2>
+          <p>Our most affordable option. Just stay right where you are. Only $50 bucks. Pay us now before you change your mind.</p>
+          <p><a class="btn btn-success" href="#" role="button">Buy Now &raquo;</a></p>
+        </div>
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+          <img class="img-circle" src="img/uranus.jpg" alt="Image of Uranus" width="140" height="140">
           <h2>Heading</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
+        </div>
+      </div><!-- ***END Three Columns with Circle Images -->
 
 
       <!-- START THE FEATURETTES -->
@@ -181,10 +176,10 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <script src="js/vendor/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
