@@ -1,5 +1,18 @@
-/*! Carousel */
 
+
+/*! BODY */
+
+body {
+  background-color: #F0F0F0;
+}
+
+/*! Carousel */
 .carousel-caption h1 {
   font-size: 4em;
+}
+
+/*! Three Columns with Circle Images */
+.col-lg-4 h2 {
+  border: 4px solid gray;
+  padding: 6px;
 }
